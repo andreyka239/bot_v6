@@ -1,0 +1,71 @@
+<html>
+<style>
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #111;
+   color: #fff;
+}
+
+.container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+}
+
+.column {
+   width: 30%;
+   padding: 20px;
+   background-color: #fff;
+   color: #111;
+   border-radius: 10px;
+}
+
+.column form {
+   display: flex;
+   flex-direction: column;
+}
+
+.column input {
+   margin: 10px 0;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+
+.column button {
+   margin: 10px 0;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   background: rgb(0,255,21);
+   background: linear-gradient(90deg, rgba(0,255,21,1) 0%, rgba(1,194,235,1) 74%, rgba(0,212,255,1) 100%);
+   color: #fff;
+}
+
+.column button:hover {
+   background-color: #008080;
+}
+
+.column p {
+   margin: 10px 0;
+}
+</style>
+<body>
+   <div class="container">
+       <div class="column left">
+           <h1><p align="center">JasonBot</p></h1>
+           <form>
+               <button>Перезапуск</button>
+               <button>Автопостинг и продажи</button>
+               <button>Контроль закупов</button>
+               <button>Настройки</button>
+               <button>Оплатить подписку</button>
+               <button>Отчеты</button>
+           </form>
+       </div>
+    </div>
+</body>
+</html>
